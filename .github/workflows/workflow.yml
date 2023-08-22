@@ -55,5 +55,5 @@ jobs:
           ruff --format=github --target-version=py37 .
       - name: Test with pytest
         run: |
-          flake8 *.py
+          pytest
           
