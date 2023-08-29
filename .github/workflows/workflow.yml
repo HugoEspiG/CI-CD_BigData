@@ -58,5 +58,5 @@ jobs:
           pytest
       - name: save py
         run: |
-         aws s3 cp test_utils.py s3://buckethugoa
+         aws s3 cp test_utils.py s3://buckethugoa/
           
